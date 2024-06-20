@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="montregular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="montsemibold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUsController" customModule="Mind_Motivations" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BEn-JX-O7g">
+                    <rect key="frame" x="0.0" y="58.999999999999972" width="393" height="480.33333333333326"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aql-gD-1lV">
+                            <rect key="frame" x="158" y="24" width="77" height="2"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="77" id="FEk-YV-oWa"/>
+                                <constraint firstAttribute="height" constant="2" id="qra-Mx-Zfr"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGs-S5-Rve">
+                            <rect key="frame" x="20" y="59.999999999999993" width="76.333333333333329" height="19.666666666666664"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sql-NP-R58">
+                            <rect key="frame" x="20" y="91.666666666666671" width="353" height="170.66666666666663"/>
+                            <string key="text">This App was created by experienced hypnotherapist and co-owner of Mind Motivations, Giovanni Lordi. Since 1996, Mind Motivations has been providing people all around the world with the tools to improve their lives and discover more about hypnosis and self-help methods. We have helped thousands of customers with our extensive catalogue of hypnotherapy recordings. They are effective, trusted, and proven products for making changes.</string>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOs-4e-EKY">
+                            <rect key="frame" x="20" y="272.33333333333331" width="353" height="188"/>
+                            <string key="text">Every single product that you find on this app or Mind Motivations website has been designed to help people. Our first and foremost goal with everything that we do is to provide people with proven tools to help change their life. Whether it be a hypnosis program to build confidence, a meditation to find answers, or a music album to promote relaxation, we are proud of the fact that what you will find here is a full and comprehensive collections of quality self-improvement products.</string>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="TGs-S5-Rve" firstAttribute="top" secondItem="BEn-JX-O7g" secondAttribute="top" constant="60" id="6II-Eu-xYw"/>
+                        <constraint firstItem="Sql-NP-R58" firstAttribute="leading" secondItem="BEn-JX-O7g" secondAttribute="leading" constant="20" id="A4o-Lj-eOG"/>
+                        <constraint firstAttribute="trailing" secondItem="QOs-4e-EKY" secondAttribute="trailing" constant="20" id="CWn-DM-MeJ"/>
+                        <constraint firstItem="Sql-NP-R58" firstAttribute="top" secondItem="TGs-S5-Rve" secondAttribute="bottom" constant="12" id="CfN-uV-A8L"/>
+                        <constraint firstItem="Aql-gD-1lV" firstAttribute="top" secondItem="BEn-JX-O7g" secondAttribute="top" constant="24" id="JqT-yg-NZp"/>
+                        <constraint firstItem="QOs-4e-EKY" firstAttribute="top" secondItem="Sql-NP-R58" secondAttribute="bottom" constant="10" id="QSQ-vs-fTf"/>
+                        <constraint firstItem="TGs-S5-Rve" firstAttribute="leading" secondItem="BEn-JX-O7g" secondAttribute="leading" constant="20" id="Rq2-fD-aJe"/>
+                        <constraint firstAttribute="trailing" secondItem="Sql-NP-R58" secondAttribute="trailing" constant="20" id="YL4-CK-Njj"/>
+                        <constraint firstItem="QOs-4e-EKY" firstAttribute="leading" secondItem="BEn-JX-O7g" secondAttribute="leading" constant="20" id="iwQ-yS-sDZ"/>
+                        <constraint firstItem="Aql-gD-1lV" firstAttribute="centerX" secondItem="BEn-JX-O7g" secondAttribute="centerX" id="mdZ-Ne-LQ6"/>
+                        <constraint firstAttribute="bottom" secondItem="QOs-4e-EKY" secondAttribute="bottom" constant="20" id="sDQ-Wb-xnh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="BEn-JX-O7g" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="F4K-ug-txd"/>
+                <constraint firstAttribute="trailing" secondItem="BEn-JX-O7g" secondAttribute="trailing" id="QNj-O1-67E"/>
+                <constraint firstItem="BEn-JX-O7g" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zTg-PV-F1s"/>
+            </constraints>
+            <point key="canvasLocation" x="-553.43511450381675" y="-77.464788732394368"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

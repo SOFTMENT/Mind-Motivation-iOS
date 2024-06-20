@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "terms-and-conditions.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
